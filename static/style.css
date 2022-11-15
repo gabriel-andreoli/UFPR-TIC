@@ -14,7 +14,7 @@ html, body{
     background: #021124;
     overflow-y: auto;
     width: 300px;
-    transition: all ease-in-out;
+    transition: all ease-in-out 0.5s;
     padding: 0 15px;
     z-index: 5;
 }
@@ -36,11 +36,18 @@ html, body{
     color: #fff;
 }
 
+#header .profile .social-links{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 #header .profile .social-links a{
     background-color: #212431;
     color: #fff;
-    padding: 0.6rem;
-    margin-right: 1rem;
+    padding: 0.47rem 0.6rem;
     border-radius: 50%;
     transition: 0.3s;
     text-decoration: none;
@@ -103,7 +110,7 @@ section#inicio h2{
 }
 
 section#inicio span#subtitle{
-    margin-right: 7.6rem;
+    margin-right: 8rem;
     font-size: 1.2rem;
 }
 
@@ -114,4 +121,55 @@ section#inicio span#subtitle{
 section#inicio div#arraste a{
     text-decoration: none;
     color: #fff;
-} 
+}
+
+.icon-social{
+    justify-content: center;
+    align-items: center;    
+}
+
+i.menu-mobile{
+    position: fixed;
+    color: #fff;
+    right: 1rem;
+    top: 1rem;
+    font-size: 2.5rem;
+    border-radius: 4rem;
+    cursor: pointer;
+    z-index: 4;
+    width: 45px;
+    height: 45px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-nav-active{
+   overflow: hidden; 
+}
+
+.menu-nav-active #header{
+    left: 0;
+}
+
+@media (max-width: 1024px){
+    #header{
+        left: -300px;
+    }
+    i.menu-mobile{
+        display: flex;
+    }
+    section#inicio h2{
+        font-size: 2rem;
+    }
+    section#inicio span#subtitle{
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+    }
+    #main{
+        margin-left: 0;
+    }
+}
