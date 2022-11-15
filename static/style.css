@@ -2,7 +2,7 @@
 
 html, body{
     font-family: Poppins, Arial, Helvetica, sans-serif;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -172,4 +172,22 @@ i.menu-mobile{
     #main{
         margin-left: 0;
     }
+}
+
+#main #sobre .pai-foto-main .filho-foto-main .foto-principal-main{
+    border-radius: 3%;
+}
+
+*::-webkit-scrollbar{
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track{
+    width: 12px;
+    box-shadow: inset 0 0 .3rem #00000050;
+    background-color: #fff;
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: #141857c2;
 }
