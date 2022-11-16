@@ -130,10 +130,11 @@ section#inicio div#arraste a{
 
 i.menu-mobile{
     position: fixed;
+    background: #262626;
     color: #fff;
     right: 1rem;
     top: 1rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     border-radius: 4rem;
     cursor: pointer;
     z-index: 4;
