@@ -47,15 +47,7 @@
                     <i class="bi bi-list-check"></i> Habilidades</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <i class="bi bi-file-earmark"></i> Currículo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <i class="bi bi-collection"></i> Portifólio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="#contato">
                         <i class="bi bi-envelope"></i> Contato</a>
                   </li>
               </ul>                                    
@@ -87,7 +79,7 @@
 
             <div class="row mt-4 pai-foto-main">
                 <div class="col-md-4 filho-foto-main">
-                    <img class="img-fluid shadow foto-principal-main" src="../static/images/Gab-2.0---Copia.png" alt="Foto do Gabriel">
+                    <img class="img-fluid shadow foto-principal-main mb-4" src="../static/images/Gab-2.0---Copia.png" alt="Foto do Gabriel">
                 </div>
                 <div class="col-md-8"> 
                     <h3 class="mb-4">Analista de Business Intelligence</h3>
@@ -96,7 +88,7 @@
                     <div class="row mt-5">
                         <div class="col-md-6">
                             <ul class="list-group list-group-flush fs-6">
-                                <li class="list-group-item mb-3">Aniverssário: <span class="fw-light">22 de Dezembro de 2002</span></li>
+                                <li class="list-group-item mb-3">Aniversário: <span class="fw-light">22 de Dezembro de 2002</span></li>
                                 <li class="list-group-item mb-3">Idade: <span class="fw-light">19 anos</span></li>
                                 <li class="list-group-item mb-3">Cidade: <span class="fw-light">Curitiba</span></li>
                                 <li class="list-group-item mb-3">Estado: <span class="fw-light">Paraná</span></li>
@@ -118,7 +110,7 @@
         <section  class="mt-5 section-bg" id="habilidades">
             <div class="container pb-5">
                 <h2 class="pt-5">Habilidades</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores saepe ad illo, repellat eos tenetur minus mollitia nostrum veniam? Sapiente dignissimos minus magnam repellat obcaecati natus ipsam omnis, blanditiis ducimus?</p>
+                <p>Aqui estão algumas habilidades técnicas e não técnicas que eu adquiri ao longo deste meu percurso, a maioria delas estão aqui, dado a porcentagem de conhecimento que eu acredito ter em cada uma delas.</p>
 
                 <div class="row">
                     <div class="col-md-12">
@@ -150,7 +142,7 @@
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
                         </div>
-                    </div>
+                    </div> 
                 </div>
 
                 <hr class="w-50 me-auto ms-auto mt-5">
@@ -176,6 +168,56 @@
                         <p class="mt-3 mb-0">Trabalho em equipe</p>
                         <div class="progress">
                               <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-5 pb-5" id="contato">
+            <div class="container mb-5 px-6">
+                <h2 class="pt-3 pb-3">Contato</h2>
+
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="card p-5 shadow h-100 border-0">
+                            <div class="endereco">
+                                <h4><i class="bi bi-geo-alt"></i> Localização:</h4>
+                                <p>Curitiba, Paraná</p>
+                            </div>
+
+                            <div class="email">
+                                <h4><i class="bi bi-envelope"></i> Email:</h4> 
+                                <p>gabriandreoli@hotmail.com</p>   
+                            </div>
+
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8817.196357792669!2d-49.21512740155295!3d-25.48374812691715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcfab4aed5fa17%3A0x8075b51ebc163d8e!2sR.%20Cap.%20Le%C3%B4nidas%20Marques%20-%20Uberaba%2C%20Curitiba%20-%20PR!5e0!3m2!1spt-BR!2sbr!4v1668871168029!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-100"></iframe>
+
+                        </div>
+                    </div>
+                    <div class="col-md-7 mt-5 mt-md-0">
+                        <div class="card p-5 shadow h-100 border-0">
+                            <form class="row g-3">
+                                <div class="col-md-6">
+                                  <label for="nome" class="form-label">Nome:</label>
+                                  <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome">
+                                </div>
+
+                                <div class="col-md-6">
+                                  <label for="email" class="form-label">Email:</label>
+                                  <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu email">
+                                </div>
+
+                                <div class="col-12">
+                                  <label for="mensagem" class="form-label">Mensagem:</label>
+                                  <textarea type="text" class="form-control" id="mensagem" placeholder="Digite sua mensagem" name="mensagem" rows="10"></textarea>
+                                </div>
+
+                                <div class="col-12 d-flex justify-content-center mt-5">
+                                  <button type="submit" class="btn btn-primary">Enviar</button>
+                                </div>
+
+                              </form>
                         </div>
                     </div>
                 </div>
