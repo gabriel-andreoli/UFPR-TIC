@@ -95,7 +95,7 @@ html, body{
 }
 
 section#inicio{
-    background-image: url("./images/fundofixed.png");
+    background-image: url("./images/fundo-fixed-defoque5.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -112,6 +112,13 @@ section#inicio h2{
 section#inicio span#subtitle{
     margin-right: 8rem;
     font-size: 1.2rem;
+}
+
+#name-and-apresentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .text-shadow{
@@ -160,6 +167,16 @@ i.menu-mobile{
     i.menu-mobile{
         display: flex;
     }
+
+    @media (max-width: 767px){
+        #name-and-apresentation{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+        }
+    }
+
     section#inicio h2{
         font-size: 2rem;
     }
@@ -223,4 +240,10 @@ i.menu-mobile{
 [data-anime].animate{
     opacity: 1;
     transform: translate3d(0, 0, 0);
+}
+
+@media (max-width: 1860px){
+    [data-anime="right"]{
+        transform: translate3d(0, 100%, 0);
+    }            
 }

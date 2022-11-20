@@ -21,3 +21,23 @@ navItem.forEach(item => {
             menuMobile.classList.replace("bi-x", "bi-list")
     })    
 });
+
+// Animar todos os itens na tela que tiveram o atributo data-anime
+
+const item = document.querySelectorAll("[data-anime]");
+
+const animeScroll = () => {
+    const windowTop = window.pageYOffset + window.innerHeight * 0.85;
+    
+    item.forEach(element =>{
+        if (windowTop > element.offsetTop){
+            element.classList.add('animate');   
+        }else{
+            element.classList.remove("animate");
+        }    
+    });
+};
+
+window.addEventListener("scroll", ()=>{
+    animeScroll();
+});
