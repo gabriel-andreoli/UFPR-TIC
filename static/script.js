@@ -41,3 +41,37 @@ const animeScroll = () => {
 window.addEventListener("scroll", ()=>{
     animeScroll();
 });
+
+//Ativar o carregamento do botão enviar
+
+const btnEnviar = document.querySelector('#enviar')
+const btnEnviarLoad = document.querySelector('#enviar-load')
+
+function VerTamanho(){
+    const nome = length.document.querySelector('#nome')
+    return nome
+}
+
+btnEnviar.addEventListener("click", () => {
+        sla = VerTamanho()
+        if (sla > 0){
+            btnEnviar.style.display = "none";
+            btnEnviarLoad.style.display = "block";
+        }
+});
+
+
+//function TamanhoCampos() e => {
+    //const nome = e.target.nome.value
+    //const email = e.target.email_usuario.value
+   // const mensagem = e.target.mensagem.value
+    //if (nome.length > 0 && email.length > 0 && mensagem.length > 0){
+        //return true
+    //};
+//};
+
+//Tirar a mensagem de sucesso depois de 5 segundos
+
+setTimeout(() =>{
+
+})
