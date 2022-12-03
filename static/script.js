@@ -53,11 +53,11 @@ function VerTamanho(){
 }
 
 btnEnviar.addEventListener("click", () => {
-        sla = VerTamanho()
-        if (sla > 0){
-            btnEnviar.style.display = "none";
-            btnEnviarLoad.style.display = "block";
-        }
+    sla = VerTamanho()
+    if (sla > 0){
+        btnEnviar.style.display = "none";
+        btnEnviarLoad.style.display = "block";
+    }
 });
 
 
@@ -72,6 +72,6 @@ btnEnviar.addEventListener("click", () => {
 
 //Tirar a mensagem de sucesso depois de 5 segundos
 
-setTimeout(() =>{
+//setTimeout(() =>{
 
-})
+//})
