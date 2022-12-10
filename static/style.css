@@ -95,7 +95,7 @@ html, body{
 }
 
 section#inicio{
-    background-image: url("./images/fundo-fixed-defoque5.png");
+    background-image: url("./images/background-inicio.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
