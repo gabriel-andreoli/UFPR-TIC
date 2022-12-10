@@ -95,7 +95,7 @@ html, body{
 }
 
 section#inicio{
-    background-image: url("./images/background-inicio.jpg");
+    background-image: url("./images/background-inicio-desfocada-horizontal.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -109,10 +109,10 @@ section#inicio h2{
     font-size: 4rem;
 }
 
-section#inicio span#subtitle{
+/* section#inicio span#subtitle{
     margin-right: 8rem;
     font-size: 1.2rem;
-}
+} */
 
 #name-and-apresentation{
     display: flex;
@@ -126,6 +126,7 @@ section#inicio span#subtitle{
 }
 
 section#inicio div#arraste a{
+    z-index: 2;
     text-decoration: none;
     color: #fff;
 }
@@ -180,13 +181,13 @@ i.menu-mobile{
     section#inicio h2{
         font-size: 2rem;
     }
-    section#inicio span#subtitle{
+    /* section#inicio span#subtitle{
         margin-right: 0;
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 1rem;
-    }
+    } */
     #main{
         margin-left: 0;
     }
@@ -248,7 +249,7 @@ i.menu-mobile{
     }            
 }
 
-#enviar-load{
+/* #enviar-load{
     display: none;
 }
 
@@ -257,4 +258,4 @@ i.menu-mobile{
     z-index: 10;
     top: 30px;
     right: 30px;
-}
+} */
