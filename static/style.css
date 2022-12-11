@@ -215,6 +215,10 @@ i.menu-mobile{
     background-color: #eff5ff;
 }
 
+#cienciadedados{
+    padding-bottom: 80px;
+}
+
 /* Animação */
 
 [data-anime]{
@@ -249,13 +253,23 @@ i.menu-mobile{
     }            
 }
 
-/* #enviar-load{
-    display: none;
+#footer{
+    padding: 15px;
+    color: #fff;
+    font-size: 14px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    z-index: 100;
+    background-color: #021124;
+    transition: 0.3s;
 }
 
-#alerta{
-    position: fixed;
-    z-index: 10;
-    top: 30px;
-    right: 30px;
-} */
+@media(max-width: 1024px){
+    #footer{
+        position: static;
+        width: auto;
+        padding: 20px 15px;
+    }
+}
