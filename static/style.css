@@ -22,7 +22,7 @@ html, body{
 #header .profile img{
     margin: 15px auto;
     display: block;
-    width: 120px;
+    width: 105px;
     border: 5px solid #2c2f3f;
     border-radius: 50%;
 }
@@ -51,6 +51,10 @@ html, body{
     border-radius: 50%;
     transition: 0.3s;
     text-decoration: none;
+}
+
+abbr{
+    border-radius: 50%;
 }
 
 #header .profile .social-links a:hover{
