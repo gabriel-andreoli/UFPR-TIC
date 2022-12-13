@@ -212,6 +212,10 @@ i.menu-mobile{
     max-height: 200px;
 }
 
+.progress-bar{
+    transition: 3s;
+}
+
 *::-webkit-scrollbar{
     width: 8px;
 }
@@ -239,6 +243,12 @@ i.menu-mobile{
 [data-anime]{
     opacity: 0;    
     transition: 1s;
+}
+
+.amount-data{
+    opacity: 0;
+    transition: 3s;
+    font-weight: 600;
 }
 
 [data-anime="down"]{
