@@ -242,6 +242,10 @@ i.menu-mobile{
     box-shadow: 3px 3px 8px #02112431;
 }
 
+.ul-lista-dc{
+    max-width: 50%;
+}
+
 /* Animação */
 
 [data-anime]{
