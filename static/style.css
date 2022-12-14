@@ -246,6 +246,10 @@ i.menu-mobile{
     max-width: 50%;
 }
 
+.arredondar-lista-itens, .ul-lista-dc, .lista-ds{
+    border-radius: 10px;
+}
+
 /* Animação */
 
 [data-anime]{
