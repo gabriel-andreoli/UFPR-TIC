@@ -264,10 +264,8 @@ i.menu-mobile{
 
 @media (max-width: 1024px){
     .business-foto-dc{
-        background-image: url("images/business-data-sciense-desfocado-CEL.png");
-    }
-    .progress-bar{
-        width: 70%;
+        height: 250px;
+        background-size: contain;
     }
 }
 
