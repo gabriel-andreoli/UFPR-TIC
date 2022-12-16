@@ -262,14 +262,6 @@ i.menu-mobile{
     height: 350px;
 }
 
-@media (max-width: 1024px){
-    .business-foto-dc{
-        height: 450px;
-        background-attachment: none;
-        background-size: contain;
-    }
-}
-
 /* Animação */
 
 [data-anime]{
