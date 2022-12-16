@@ -99,7 +99,7 @@ abbr{
 }
 
 section#inicio{
-    background-image: url("./images/background-inicio-desfocada-horizontal.jpg");
+    background-image: url("images/background-inicio-desfocada-horizontal.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -251,7 +251,7 @@ i.menu-mobile{
 }
 
 .business-foto-dc{
-    background-image: url("./images/business-data-sciense-desfocado.png");
+    background-image: url("images/business-data-sciense-desfocado.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -279,7 +279,6 @@ i.menu-mobile{
 .amount-data{
     opacity: 0;
     transition: 3s;
-    font-weight: 600;
 }
 
 [data-anime="down"]{
