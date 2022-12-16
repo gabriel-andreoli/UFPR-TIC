@@ -102,6 +102,8 @@ section#inicio{
     background-image: url("images/background-inicio-desfocada-horizontal.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-attachment: fixed;
     background-position: center;
     
